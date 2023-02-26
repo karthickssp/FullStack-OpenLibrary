@@ -1,0 +1,105 @@
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: hsl(218deg 50% 91%);
+  
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  border: none;
+  background: hsl(213deg 85% 97%);
+  box-shadow: 0 0 2em hsl(231deg 62% 94%);
+  border-radius: 10px;
+  max-width: 600px;
+  width: 100%;
+}
+
+.login-form h2 {
+  margin-bottom: 2rem;
+  color: black;
+  text-align: center;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+label {
+  margin-bottom: 0.5rem;
+  font-size: 1.3rem;
+  color: black;
+}
+
+input {
+  padding: 0.8rem;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  color: hsl(0deg 0% 30%);;
+  width: 95%;
+}
+
+button {
+  margin-top: 2rem;
+  padding: 1rem 2.5rem;
+  font-size: 1.3rem;
+  color: #FFFFFF;
+  background-color:hsl(233deg 36% 38%);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: lightgreen;
+}
+
+.forgot-password {
+  margin-top: 1.5rem;
+  text-align: right;
+  font-size: 1.2rem;
+  color: #FFFFFF;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.forgot-password:hover {
+  color: #C4C4C4;
+}
+
+.login-form .form-group:last-child {
+  margin-top: 1.5rem;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #FFFFFF;
+}
+
+.login-form .form-group:last-child a {
+  color: #4A47A3;
+  transition: color 0.3s ease;
+}
+
+.login-form .form-group:last-child a:hover {
+  color: #2B2A67;
+}
+.icon{
+  background-image: url("bookimg.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
